@@ -19,6 +19,6 @@ jobs:
       with:
         node-version: 12
     - run: curl https://install.meteor.com/ | sh
-    - run: npm ci
+    # - run: npm ci
     # - run: npm run build --if-present
     - run: meteor
